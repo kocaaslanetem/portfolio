@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Etem Kocaaslan</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:kocaaslanetem@gmail.com">kocaaslanetem@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,25 +22,14 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Etem. I am a{' '}
+        <a href="https://www.eskisehir.edu.tr/en">Becho, Eskisehir Technical University EEM</a>
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
+          <Link to="/resume" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </section>
@@ -48,7 +37,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Etem Kocaaslan.
       </p>
     </section>
   </section>

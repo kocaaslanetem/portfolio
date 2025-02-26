@@ -1,47 +1,58 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'YOLOdetectify',
+    subtitle:
+      'A computer vision project using YOLO (You Only Look Once) for real-time object detection...',
+    image: '/images/projects/yolodetectify.jpg',
+    date: 'Aug 6, 2023',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Real-time Soccer player detection '
+      + 'Tech Stack: Python, OpenCV, YOLO, PyTorch. ',
+    link: 'https://github.com/etemkocaaslan/YOLOdetectify',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'NNdotnet',
+    subtitle: 'A .NET library for building and training neural networks in C#.',
+    image: '/images/projects/NNdotnet.gif',
+    date: 'Jan 20, 2024',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'My .NET library for building and training neural networks in C# for fun :) '
+      + 'Tech Stack: C#, .NET, Neural Networks. ',
+    link: 'https://github.com/etemkocaaslan/NNdotnet',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Dashboard',
+    subtitle: 'A customizable dashboard layout showcasing data visualization',
+    image: '/images/projects/dashboard.jpg',
+    date: 'May 17, 2024',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'A customizable dashboard layout showcasing data visualization and interactive widgets. '
+      + 'Built with modern web technologies for a clean, user-friendly interface. '
+      + 'Tech Stack: HTML, CSS, JavaScript. ',
+    link: 'https://github.com/etemkocaaslan/Dashboard',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Hugging Face Image Classification',
+    subtitle:
+      'A web demo for image classification built with Hugging Face Spaces',
+    image: '/images/projects/hf_image_classification.jpg',
+    date: 'Jun 9, 2024',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A web demo for image classification built with Hugging Face Spaces. '
+      + 'Users can upload images and classify them with a pre-trained model. '
+      + 'Tech Stack: Python, Gradio, Hugging Face Spaces, PyTorch. ',
+    link: 'https://huggingface.co/spaces/etemkocaaslan/Image_classification',
+  },
+  {
+    title: 'Object Detection with TorchVision Pretrained Models',
+    subtitle:
+      "A Hugging Face Space showcasing object detection using PyTorch's TorchVision models",
+    image: '/images/projects/object-detection-torchvision.jpg',
+    date: 'Jun 11, 2024',
+    desc:
+      'A Hugging Face Space, object detection using RESNET50. '
+      + 'Tech Stack: Python, PyTorch, TorchVision, Gradio, Hugging Face. ',
+    link: 'https://huggingface.co/spaces/etemkocaaslan/Object_detection_torchvision_pretrained_models',
   },
 ];
 

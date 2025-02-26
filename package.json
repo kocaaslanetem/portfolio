@@ -1,11 +1,11 @@
 {
-  "name": "personal-site",
+  "name": "portfolio",
   "version": "4.0.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://etemkocaaslan.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/kocaaslanetem/portfolio"
   },
   "engines": {
     "node": ">=16.x"
@@ -32,7 +32,8 @@
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.28.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.9",
