@@ -7,27 +7,27 @@ const skills = [
   {
     title: 'Numpy',
     competency: 4,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    category: ['Data Science', 'Data Science', 'ML Engineering'],
   },
   {
     title: 'Tensorflow + Keras',
     competency: 4,
-    category: ['ML Engineering', 'Python'],
+    category: ['ML Engineering', 'Data Science'],
   },
   {
     title: 'PyTorch',
     competency: 4,
-    category: ['ML Engineering', 'Python'],
+    category: ['ML Engineering', 'Deep Learning'],
   },
   {
     title: 'Javascript',
     competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Full Stack Development'],
   },
   {
     title: 'React',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'MongoDB',
@@ -37,62 +37,57 @@ const skills = [
   {
     title: 'Flask',
     competency: 3,
-    category: ['Web Development', 'Python'],
+    category: ['Web Development', 'DevOps'],
   },
   {
     title: 'Docker',
     competency: 2,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Tools', 'DevOps'],
   },
   {
     title: 'Jupyter',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Data Science'],
   },
   {
     title: 'HTML',
     competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Frontend Development', 'Web Development'],
   },
   {
     title: 'Python',
-    competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
+    competency: 4,
+    category: ['ML Engineering', 'Web Development', 'Backend Development', 'Data Science'],
   },
   {
     title: 'C++',
     competency: 3,
-    category: ['Languages'],
+    category: ['Backend Development', 'Deep Learning'],
   },
   {
     title: 'MATLAB',
     competency: 2,
-    category: ['Languages'],
+    category: ['Deep Learning', 'Data Science', 'Signal Processing'],
   },
   {
     title: 'R',
     competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 2,
-    category: ['Data Science', 'Javascript'],
+    category: ['Machine Learning', 'Data Science'],
   },
   {
     title: 'Pandas',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Science', 'ML Engineering'],
   },
   {
     title: 'Matplotlib',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Engineering', 'ML Engineering'],
   },
   {
     title: 'Scikit-Learn',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Science', 'ML Engineering'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
