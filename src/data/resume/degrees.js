@@ -1,15 +1,13 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Eskisehir Technical University',
+    degree: 'B.S. Electrical and Electronics Engineering, Computer Science',
+    link: 'https://www.eskisehir.edu.tr/en',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'ILAC International College',
+    degree: 'Sales and Marketing',
+    link: 'https://ilacinternationalcollege.com/',
   },
 ];
 
