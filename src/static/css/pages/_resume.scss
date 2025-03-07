@@ -136,3 +136,46 @@
     display: block;
   }
 }
+.certificates {
+  padding-top: 1.6em;
+  .title {
+    text-align: center;
+  }
+  .certificates-list {
+    text-align: center;
+
+    h4 {
+      white-space: nowrap;
+    }
+  }
+}
+@include breakpoint(small) {
+  .certificate-dot {
+    display: none;
+  }
+  .certificate-container a {
+    display: block;
+  }
+}
+.certificates .certificate-institution {
+  display: inline;
+}
+.certificates .certificate-title {
+  display: inline;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  margin-top: -1em;
+  text-transform: uppercase;
+}
+
+.certificates ul li {
+  display: block;
+}
+
+.certificate-dot {
+  // display: inline;
+  display: none;
+}
