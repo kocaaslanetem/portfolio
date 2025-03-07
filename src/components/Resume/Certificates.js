@@ -15,7 +15,7 @@ const getRows = (certificates) => certificates
 const Certificates = ({ data }) => (
   <div className="certificates">
     <div className="link-to" id="certificates" />
-    <div className="title">
+    <div className="title" style={{ marginBottom: '1em', textAlign: 'center' }}>
       <h3>Certificates</h3>
     </div>
     <ul className="certificate-list">{getRows(data)}</ul>
