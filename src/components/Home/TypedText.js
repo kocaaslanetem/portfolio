@@ -16,8 +16,9 @@ const TypedText = ({
   useEffect(() => {
     const options = {
       strings: [
-        'Graduated EEM, still debugging life.',
-        'Explore, laugh, and enjoy the road!',
+        'I am an Electrical and Electronics Engineer.',
+        'I am in love with robotics and machine learning applications.',
+        'Weight lifthing is my passion. I am a huge fan of calisthenics.',
       ],
       loop: true,
       typeSpeed: 50,
