@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 const Certificate = ({ data, last }) => (
   <li className="certificate-container">
     <a href={data.link}>
-      <h4 className="certificate-date">{data.toughtby}:</h4>
-      <p className="certificate-name">{data.title}</p>
+      <h4 className="certificate-title">{data.title}</h4>{' '}
+      <p className="certificate-institution">{data.institution}</p>
     </a>
     {!last && (
       <div className="certificate-dot">
-        <p className="certificate-date"> &#8226;</p>
+        <p className="certificate-institution"> &#8226;</p>
       </div>
     )}
   </li>
