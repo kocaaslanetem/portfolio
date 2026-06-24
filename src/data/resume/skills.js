@@ -2,12 +2,12 @@ const skills = [
   {
     title: 'C#',
     competency: 4,
-    category: ['Backend Development', 'FullStack Development'],
+    category: ['Backend Development', 'Full Stack Development'],
   },
   {
     title: 'Numpy',
     competency: 4,
-    category: ['Data Science', 'Data Science', 'ML Engineering'],
+    category: ['Data Science', 'ML Engineering'],
   },
   {
     title: 'Tensorflow + Keras',
