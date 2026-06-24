@@ -105,6 +105,8 @@ const colors = [
   '#d75858',
   '#747fff',
   '#64cb7b',
+  '#f4a261',
+  '#2a9d8f',
 ];
 
 const categories = [...new Set(skills.flatMap(({ category }) => category))]
