@@ -20,9 +20,9 @@ const work = [
     endDate: '2021-06-01',
     summary: 'Developed and maintained software for Pipe Inspection Robots',
     highlights: [
-      'Built and scaled engineering team, emphasizing diversity and open-source contribution'
-      + 'Pipe inspection robots has been resarched'
-      + "Inspection robot's data has been analyzed",
+      'Built and scaled engineering team, emphasizing diversity and open-source contribution',
+      'Pipe inspection robots has been researched and developed',
+      "Inspection robot's data has been analyzed",
     ],
   },
 ];

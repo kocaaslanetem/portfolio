@@ -18,7 +18,7 @@ const Certificate = ({ data, last }) => (
 Certificate.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    toughtby: PropTypes.string.isRequired,
+    taughtBy: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
     institution: PropTypes.string.isRequired,
   }).isRequired,
