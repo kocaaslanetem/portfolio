@@ -26,7 +26,7 @@ Certificates.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
-      toughtby: PropTypes.string,
+      taughtBy: PropTypes.string,
       link: PropTypes.string,
       intitution: PropTypes.string,
     }),
