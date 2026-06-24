@@ -28,7 +28,7 @@ Certificates.propTypes = {
       title: PropTypes.string,
       taughtBy: PropTypes.string,
       link: PropTypes.string,
-      intitution: PropTypes.string,
+      institution: PropTypes.string,
     }),
   ),
 };
